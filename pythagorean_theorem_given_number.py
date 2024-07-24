@@ -11,7 +11,7 @@ import math
 
 def processingEvenNumbers(x):
   #Precondition: x is even
-  count = 0;
+  count = 0
   while x/2 == math.floor(x/2):
     x /= 2
     count += 1
